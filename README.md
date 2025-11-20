@@ -1,11 +1,12 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ce28c41-a8f4-48e1-9741-65b9516b7cf3" />🛡️ Anti-Money Laundering (AML) System using Microsoft Fabric
+🛡️ Anti-Money Laundering (AML) System using Microsoft Fabric
 This repository hosts a comprehensive, end-to-end solution for detecting potential money laundering activities. The platform is architected within Microsoft Fabric and leverages its unified data and analytics capabilities, including Lakehouse, PySpark Notebooks, Spark MLlib, MLflow, and Power BI.
 
 The solution implements a dual detection strategy: Rule-Based Flagging and Machine Learning-Based Anomaly Scoring.
 
 1. Project Overview and Architecture
 The platform processes three core datasets (accounts, transactions, alerts) through a four-stage Medallion Architecture to ensure data quality, structure, and enrichment at every phase.
-![Uploading Screenshot (577).png…]()
+<img width="703" height="270" alt="Screenshot (577)" src="https://github.com/user-attachments/assets/abbc5ada-f12a-4a1a-8ae0-eabc8199bd15" />
+
 
 2. Prerequisites
 Before deploying the pipeline, ensure the following are in place:
@@ -192,7 +193,12 @@ IF('platinum_aml_transactions'[ALERT_Fraud_Counterparty] = TRUE(), "Rule: Fraud 
 IF('platinum_aml_transactions'[ML_FRAUD_SCORE] >= 0.8, "ML: High Score Anomaly", "Other/ML Alert"))))
 
 4.3 Key Dashboard Visuals
-![Uploading Screenshot (579).png…]()
+<img width="703" height="331" alt="Screenshot (579)" src="https://github.com/user-attachments/assets/c927dff9-cd7b-44da-8f92-b85d42868e29" />
+<img width="1920" height="1080" alt="Screenshot (580)" src="https://github.com/user-attachments/assets/0e3204d8-dd47-4292-9b22-7e78469a82b1" />
+<img width="1920" height="1080" alt="Screenshot (574)" src="https://github.com/user-attachments/assets/b7201be8-833c-47a4-a103-f413ee730f3d" />
+
+
+
 <img width="1920" height="1080" alt="Screenshot (580)" src="https://github.com/user-attachments/assets/d5e02735-e350-4f13-8e8d-2d44a614c4a2" />
 <img width="1920" height="1080" alt="Screenshot (574)" src="https://github.com/user-attachments/assets/1b0edfb5-05d6-4406-bfc2-edb6fc4bb577" />
 
