@@ -22,6 +22,7 @@ identify suspicious patterns and potential money laundering activities, providin
 **Dataset**
 Source
 The project uses the SAML-D (Synthetic Anti-Money Laundering Dataset) from Kaggle
+https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml
 
 
 **Technical Stack**
